@@ -1,11 +1,25 @@
 {
   "name": "ratelimitter",
   "version": "1.0.0",
+  "private": true,
+  "author": "shubham kaushik",
+  "description": "rate limitter package This project is for open source contribution",
+  "homepage": "https://github.com/shubham9069/RATE_LIMITER-Npm-Package",
   "main": "index.js",
+  "keywords": [
+    "DSA",
+    "OOPS",
+    "javascript",
+    "Rollup",
+    "Node",
+    "npm-package"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
   },
-  "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1"
+  }
 }

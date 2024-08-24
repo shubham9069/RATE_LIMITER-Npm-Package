@@ -1,5 +1,9 @@
 'use strict';
 
+function getDefaultExportFromCjs$1 (x) {
+	return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
+}
+
 function getDefaultExportFromCjs (x) {
 	return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
 }
@@ -72,4 +76,8 @@ var RATE_LIMITERNpmPackageMain = {RateLimitter};
 
 var index = /*@__PURE__*/getDefaultExportFromCjs(RATE_LIMITERNpmPackageMain);
 
-module.exports = index;
+var RATE_LIMITERNpmPackageMain_1 = index;
+
+var index$1 = /*@__PURE__*/getDefaultExportFromCjs$1(RATE_LIMITERNpmPackageMain_1);
+
+module.exports = index$1;

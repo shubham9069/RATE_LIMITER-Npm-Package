@@ -11,11 +11,18 @@ function addPackageJson() {
 	const packageJson = `{
 	"name": "${pkg.name}",
 	"version": "${pkg.version}",
-	"private": "${pkg.private}",
+	"private": ${pkg.private},
 	"author": "${pkg.author}",
 	"description": "${pkg.description}",
 	"homepage": "${pkg.homepage}",
-	"keywords": "[${pkg.keywords}]",
+	 "keywords": [
+    "DSA",
+    "OOPS",
+    "javascript",
+    "Rollup",
+    "Node",
+    "npm-package"
+  ],
 	"main": "${pkg.main}",
 	"web-types": "web-types.json"
 

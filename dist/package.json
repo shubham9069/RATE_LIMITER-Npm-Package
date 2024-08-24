@@ -1,11 +1,18 @@
 {
-	"name": "ratelimitter",
+	"name": "shadow-rate-limitter",
 	"version": "1.0.0",
-	"private": "true",
+	"private": false,
 	"author": "shubham kaushik",
 	"description": "rate limitter package This project is for open source contribution",
 	"homepage": "https://github.com/shubham9069/RATE_LIMITER-Npm-Package",
-	"keywords": "[DSA,OOPS,javascript,Rollup,Node,npm-package]",
+	 "keywords": [
+    "DSA",
+    "OOPS",
+    "javascript",
+    "Rollup",
+    "Node",
+    "npm-package"
+  ],
 	"main": "index.js",
 	"web-types": "web-types.json"
 
